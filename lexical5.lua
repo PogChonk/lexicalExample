@@ -2,7 +2,7 @@ local lexicalOrder = require(game.ReplicatedStorage.LexicalOrder)
 
 local lexical = lexicalOrder.new()
 lexical:Lexicate("5") --// 5 as a number works too, it just has to be a single argument "555555" or 5555555 works, "5", "5" wouldn't nor would 5, 5
-print(lexical.Lexicon)
+print(lexical.Permutations)
 
 --[[
 
